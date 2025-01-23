@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+npm install
+npm install mongoose
 npm run dev
 # or
 yarn dev
@@ -13,6 +15,8 @@ pnpm dev
 # or
 bun dev
 ```
+.env file: Create a .env file and set up the MongoDB connection URI as follows, replacing <username> and <password> with your credentials:
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/fullstack?retryWrites=true&w=majority
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
